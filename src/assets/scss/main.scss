@@ -1,1 +1,11 @@
 @import "vendors/bootstrap/bootstrap-grid";
+
+body {
+  //   overflow: hidden;
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    color: blueviolet;
+  }
+}
