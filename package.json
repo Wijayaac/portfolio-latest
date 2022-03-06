@@ -2,7 +2,6 @@
   "name": "portfolio-bs5",
   "version": "1.0.0",
   "description": "Using bootstrap 5 as a framework to build portfolio",
-  "main": "index.html",
   "author": "Wijayaac <wijayaac25@gmail.com>",
   "license": "MIT",
   "browserslist": "> 0.5%, last 2 versions, not dead",
