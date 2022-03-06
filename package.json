@@ -4,5 +4,14 @@
   "description": "Using bootstrap 5 as a framework to build portfolio",
   "main": "index.html",
   "author": "Wijayaac <wijayaac25@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
 }
