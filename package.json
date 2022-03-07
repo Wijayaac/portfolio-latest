@@ -2,7 +2,6 @@
   "name": "portfolio-bs5",
   "version": "1.0.0",
   "description": "Using bootstrap 5 as a framework to build portfolio",
-  "main": "index.html",
   "author": "Wijayaac <wijayaac25@gmail.com>",
   "license": "MIT",
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -13,5 +12,10 @@
   },
   "devDependencies": {
     "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "splitting": "^1.0.6",
+    "utils": "^0.3.1"
   }
 }

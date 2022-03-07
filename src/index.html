@@ -1,34 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Wijayaac</title>
+    <meta name="description" content="Personal portfolio made with HTML, SCSS, and JavaScript" />
+    <meta name="keywords" content="portfolio, stagger, animation, bootstrap" />
+    <meta name="author" content="Wijayaac" />
+    <link rel="stylesheet" href="https://use.typekit.net/lwc3axy.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 </head>
 
-<body>
-    <header>
-
-
-    </header>
+<body class="loading">
     <main>
-        <div class="container">
-            <h1>Helo</h1>
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2>Left</h2>
-                </div>
-                <div class="col-lg-4">
-                    <h2>right side</h2>
+        <div class="frame">
+            <a class="frame__home">
+                <span class="frame__home-title">JF</span>
+                <span class="frame__home-sub">2020</span>
+            </a>
+            <div class="frame__title-wrap">
+                <h1 class="frame__title">Typography Motion Effect</h1>
+                <div class="frame__links">
+                    <a href="https://tympanus.net/Tutorials/ImageGridMotionEffect/index.html">Previous demo</a>
+                    <a href="https://tympanus.net/codrops/?p=50136">Article</a>
+                    <a href="https://github.com/codrops/TypographyMotion/">GitHub</a>
                 </div>
             </div>
+            <a class="frame__about">
+                <span class="frame__about-item frame__about-item--current">About</span>
+                <span class="frame__about-item">Close</span>
+            </a>
+        </div>
+        <div class="content">
+            <section class="content__item content__item--home content__item--current">
+                <p class="content__paragraph content__paragraph--large content__paragraph--first" data-splitting>Make
+                    Data</p>
+                <p class="content__paragraph content__paragraph--large content__paragraph--right content__paragraph--last"
+                    data-splitting>your strength</p>
+                <div class="content__item-credits">Recreation of the effect on <a
+                        href="http://www.danimorales-style.com/">Dani Morales</a> by <a
+                        href="https://dribbble.com/shots/11133412-Transitions-Fashion-stylist-Project">Thibaud Allie</a>
+                </div>
+            </section>
+            <section class="content__item content__item--about">
+                <p class="content__paragraph" data-splitting>Johnathan Flynn is</p>
+                <p class="content__paragraph content__paragraph--right" data-splitting>a Salt Lake City</p>
+                <p class="content__paragraph" data-splitting>based <em>data</em> and <em>social</em></p>
+                <p class="content__paragraph" data-splitting>engineer</p>
+            </section>
         </div>
     </main>
-    <footer></footer>
-    <script src="./assets/js/script.js"></script>
+    <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+        <circle class="cursor__inner" cx="40" cy="40" r="20" />
+    </svg>
+    <script type="module" src="./app/main.js"></script>
 </body>
 
 </html>
