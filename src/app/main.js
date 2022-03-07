@@ -33,9 +33,6 @@ let DOM = {
           ".content__paragraph .word > .char, .whitespace"
         );
       },
-      get picture() {
-        return this.section.querySelector(".content__figure");
-      },
       isVisible: false,
     },
   },
