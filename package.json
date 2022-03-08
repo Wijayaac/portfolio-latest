@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "gsap": "^3.9.1",
-    "splitting": "^1.0.6",
-    "utils": "^0.3.1"
+    "splitting": "^1.0.6"
   }
 }
