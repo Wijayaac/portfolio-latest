@@ -4,6 +4,7 @@ import Splitting from "splitting";
 import { gsap } from "gsap";
 import { preloadFonts } from "./utils";
 import Cursor from "./cursor";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 // Preload typekit fonts
 preloadFonts("lwc3axy").then(() => document.body.classList.remove("loading"));
